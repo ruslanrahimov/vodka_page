@@ -161,6 +161,7 @@ engBtn.addEventListener("click", () => {
 		".header__title"
 	).innerHTML = `Transparent affiliate with <span class="text__stress"> a strong envelope </span><br>
 		and a nice approve`;
+	document.querySelector(".sign-up__btn").innerText = "Sign UP";
 	//Feature
 	document.querySelector(".features__title").innerHTML =
 		"Highlights of <br> our company:";
